@@ -30,7 +30,8 @@
 #     print("Hello number", i)
 #
 # Write your code below:
-
+for i in range(5):
+    print("Message number ", i)
 
 # Task 2: Counting with for loops
 # -------------------------------------------
@@ -46,7 +47,13 @@
 #     print(i)
 #
 # Write your code below:
-
+print("Counting from 1 to 10")
+for i in range(1, 11):
+    print(i)
+#
+print("Counting down from 10 to 1")
+for i in range(10, 0, -1):
+    print(i)
 
 # Task 3: Using for loops with user input
 # -------------------------------------------
@@ -62,7 +69,9 @@
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-
+user_number = int("input ")
+for i in range(user_number):
+    print("This is loop", i + 1)
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
