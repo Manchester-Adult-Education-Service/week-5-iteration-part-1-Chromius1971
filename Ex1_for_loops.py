@@ -30,8 +30,16 @@
 #     print("Hello number", i)
 #
 # Write your code below:
+print()
+print("Exercise 1")
+print()
+print("Task 1")
+print()
+print("Loops for pre-determined number of times")
+print()
 for i in range(5):
     print("Message number ", i)
+print()
 
 # Task 2: Counting with for loops
 # -------------------------------------------
@@ -47,14 +55,18 @@ for i in range(5):
 #     print(i)
 #
 # Write your code below:
+print("Task 2")
+print()
 print("Counting from 1 to 10")
+print()
 for i in range(1, 11):
     print(i)
+print()
 #
 print("Counting down from 10 to 1")
 for i in range(10, 0, -1):
     print(i)
-
+print()
 # Task 3: Using for loops with user input
 # -------------------------------------------
 # You can combine input() with for loops.
@@ -69,9 +81,14 @@ for i in range(10, 0, -1):
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-user_number = int("input ")
-for i in range(user_number):
+print("Task 3")
+print()
+print("Repeating a message using a User input")
+print()
+number = int(input("Please enter a number "))
+for i in range(number):
     print("This is loop", i + 1)
+print()
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
@@ -106,7 +123,14 @@ for i in range(user_number):
 #     print(letter)
 
 # Write your code below:
-
+print("Extension 1")
+print()
+print("Printing a user defined word into seperate lines")
+print()
+word = input("Please enter a word ")
+for letter in word:
+    print(letter)
+print()
 
 # Extension 2:
 # -------------------------------------------
@@ -115,7 +139,16 @@ for i in range(user_number):
 # Hint: You can use range(start, stop, step) — for example, range(0, 10, 2)
 
 # Write your code below:
-
+print("Extension 2")
+print()
+print("Printing all the even numbers from 0 to a user defined number")
+print()
+s = 0
+user_num = int(input("Enter a number "))
+for i in range(s, user_num + 1):
+    if i % 2 ==0:
+        print(i)
+print()
 
 # Extension 3 (a bit harder):
 # -------------------------------------------
@@ -134,7 +167,15 @@ for i in range(user_number):
 # n
 
 # Write your code below:
-
+print("Extension 3")
+print()
+print("Printing a user defined name while skipping any blank spaces")
+print()
+name = input("Please enter your Christian and Surname ")
+for letter in name:
+    print (letter)
+print("Unfortunately this doesn't work! I couldn't figure it out!)
+print()
 
 # -------------------------------------------
 # ADVANCED ACTIVITY
@@ -153,6 +194,15 @@ for i in range(user_number):
 # print(f"{num} x {i} = {num * i}")
 
 # Write your code below:
+print()
+print("Advanced activity")
+print()
+start=1
+end=10
+number = int(input("Please enter a number "))
+for i in range(start, end + 1):
+    print(f"{number * i}")
+print()
 
 
 # -------------------------------------------
