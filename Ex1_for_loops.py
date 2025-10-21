@@ -143,12 +143,10 @@ print("Extension 2")
 print()
 print("Printing all the even numbers from 0 to a user defined number")
 print()
-s = 0
-user_num = int(input("Enter a number "))
-for i in range(s, user_num + 1):
-    if i % 2 ==0:
-        print(i)
-print()
+number = int(input("Choose a number "))
+for i in range(0, number, 2):
+    print(i)
+(print)
 
 # Extension 3 (a bit harder):
 # -------------------------------------------
@@ -173,8 +171,9 @@ print("Printing a user defined name while skipping any blank spaces")
 print()
 name = input("Please enter your Christian and Surname ")
 for letter in name:
-    print (letter)
-print("Unfortunately this doesn't work! I couldn't figure it out!)
+    if letter != ("", -1):
+        print (letter)
+#print("Unfortunately this doesn't work! I couldn't figure it out!)
 print()
 
 # -------------------------------------------
@@ -198,9 +197,10 @@ print()
 print("Advanced activity")
 print()
 start=1
-end=10
+end=11
+count=0
 number = int(input("Please enter a number "))
-for i in range(start, end + 1):
+for i in range(start, end, count +1):
     print(f"{number * i}")
 print()
 
